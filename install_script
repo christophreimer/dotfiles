@@ -10,6 +10,11 @@ install_dotfiles () {
   for src in $(find "$DOTFILES_ROOT/" -maxdepth 2 -name '*.symlink')
   do
     dst="$HOME/$(basename "${src%.*}")"
+    echo $dst 
     ln -s "$src" "$dst"
   done
 }
+
+install_dotfiles
+
+echo "dotfiles installed."
