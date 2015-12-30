@@ -1,0 +1,4 @@
+*.zsh
+pure.zsh-theme
+pure/
+zsh-syntax-highlighting/
