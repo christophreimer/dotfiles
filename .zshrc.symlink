@@ -93,7 +93,7 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # added by Miniconda 3.10.1 installer
-export PATH="/home/christoph/miniconda/bin:$PATH"
+export PATH="$HOME/miniconda/bin:$PATH"
 
 # added for TU-Wien pip server
 export no_proxy=dvlp1.ipf.tuwien.ac.at,$no_proxy
@@ -102,4 +102,4 @@ export no_proxy=dvlp1.ipf.tuwien.ac.at,$no_proxy
 export PATH="/opt/dggrid.v61/src/apps/dggrid:$PATH"
 
 # added Path to cabal packages
-export PATH="/home/christoph/.cabal/bin:$PATH"
+export PATH="$HOME/.cabal/bin:$PATH"
