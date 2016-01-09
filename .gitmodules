@@ -1,0 +1,9 @@
+[submodule ".spacemacs-config/org-mode"]
+	path = .spacemacs-config/org-mode
+	url = git@github.com:jwiegley/org-mode.git
+[submodule ".spacemacs-config/org-reveal"]
+	path = .spacemacs-config/org-reveal
+	url = git@github.com:yjwen/org-reveal.git
+[submodule ".spacemacs-config/emacs-material-theme"]
+	path = .spacemacs-config/emacs-material-theme
+	url = git@github.com:cpaulik/emacs-material-theme.git
