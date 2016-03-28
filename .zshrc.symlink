@@ -93,8 +93,11 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # mount aliases
-alias mount_project10="sshfs cre@project10:/ ~/shares/project10/ -o uid=16777217 -o gid=16777216"
+alias mount_project10="sshfs cre@project10.ipf.tuwien.ac.at:/ ~/shares/project10/ -o uid=16777217 -o gid=16777216"
 alias unmount_project10="sudo umount ~/shares/project10/"
+
+alias mount_cre="sshfs cre@cre.ipf.tuwien.ac.at:/ ~/shares/cre/ -o uid=16777217 -o gid=16777216"
+alias unmount_cre="sudo umount ~/shares/cre/"
 
 # added by Miniconda 3.10.1 installer
 export PATH="$HOME/miniconda/bin:$PATH"
