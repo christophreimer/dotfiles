@@ -99,6 +99,10 @@ alias unmount_project10="sudo umount ~/shares/project10/"
 alias mount_cre="sshfs cre@cre.ipf.tuwien.ac.at:/ ~/shares/cre/ -o uid=16777217 -o gid=16777216"
 alias unmount_cre="sudo umount ~/shares/cre/"
 
+# link project machines locally
+alias ln_project10="sudo ln -s ~/shares/project10/data-write /data-write ; sudo ln -s ~/shares/project10/data-read /data-read"
+alias unlink_project10="sudo unlink /data-write ; sudo unlink /data-read"
+
 # added by Miniconda 3.10.1 installer
 export PATH="$HOME/miniconda/bin:$PATH"
 
@@ -110,3 +114,6 @@ export PATH="/opt/dggrid.v61/src/apps/dggrid:$PATH"
 
 # added Path to cabal packages
 export PATH="$HOME/.cabal/bin:$PATH"
+
+# add texlive
+export PATH="/usr/local/texlive/2015/bin/x86_64-linux:$PATH"
